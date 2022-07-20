@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Arima:wght@200&family=Caveat&family=Dancing+Script&family=Josefin+Sans:wght@700&family=Lobster&family=Montserrat&family=Pacifico&family=Rubik+Moonrocks&family=Shadows+Into+Light&family=Titan+One&display=swap');*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+*{
+    margin: 0;
+}
+body{
+    /* background-image: url(./img/01.jpg); */
+    /* background-size:cover; */
+    overflow-x: hidden;
+}
+.s1{
+    /* background-image: url(./img/01.jpg);
+    background-size:cover; */
+    /* height: 100vh; */
+    background-color: #FFFE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+    width: 100%;
+    padding: 15px 0;
+    /* background-color: white; */
+    /* display: inline;
+    height: 300px;
+    width: 500px; * */
+}
+.s1 li{
+    display: inline-block;
+    align-items: center;
+    padding: 15px;
+    margin-left: 40px;
+}
+
+.s3{
+    /* margin-left: 495px; */
+    /* margin-top: -64px; */
+    /* display: flex;
+    align-items: center; */
+    color: #8a634a;
+    font-size:larger;
+}
+.logo{
+    height: 75px;
+    width: 80px;
+}
+.s4{
+    margin-left: 130px;
+    padding: 10px;
+    border-radius: 20px ;
+    border: 4px #8a634a solid;
+    background-color:#8a634a;
+    color: white;
+}
+.s5{
+    padding: 10px;
+    border-radius: 20px;
+    border: 4px #8a634a solid;
+    background-color:#8a634a;
+    color: white;
+}
+ul li a{
+    color: #8a634a;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    color:#8a634a;
+}
+.hero{
+    background-image: url(./img/01.jpg);
+    background-size:cover; 
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+}
+.a1{
+    /* height: 325px; */
+    max-width: 350px;
+    border:#8a634a 5px solid;
+    right: 90px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size:x-large;
+    border-radius: 50px;
+    text-align: center;
+    color: #8B4513;
+    position: absolute;
+    padding: 20px 10px;
+    background-color: white;
+}
+
+.a2{
+    background-color: #8a634a;
+    /* border: 20px #8a634a solid; */
+    font-size: large;
+    padding: 30px;
+    border-radius: 36px;
+    border: 1px #8a634a solid ;
+    margin-top: 23px;
+    color: white;
+    margin-bottom: 23px;
+}
+.a2:hover{
+    background-color: white;
+    color: #8B4513;
+}
+.a3{
+    font-size:large;
+}
+.m1{
+    display: flex;
+    width: 100%;
+}
+.m2{
+    width: 33.33%;
+    min-height: 350px;
+    position: relative;    
+}
+.m2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.m2 button{
+    border: none;
+    background-color: #007042;
+    color: white;
+    padding: 17px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 50%;
+    min-width: max-content;
+    font-size: 20px;
+    display: block;
+    transform: translateX(-50%);
+}
+.h1:hover{
+    background-color: white;
+    color: #007042;
+}
+.q1{
+    position: relative;
+}
+.q2{
+    height: 80vh;
+    width: 100vw;
+    background-image: url(./img/new01.jpg);
+    background-size:cover; 
+    position: absolute;
+    text-align: center;
+    overflow-x: hidden;
+
+}
+#q4{
+font-family:'Montserrat', sans-serif ;
+font-size:35px;
+margin-top: 30px;
+}
+#q3{
+    font-family: 'Pacifico', cursive;
+    font-size: 65px;
+}
+#q5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:85px;
+}
+.t1{
+    padding: 10px;
+}
+.q6{
+    border: none;
+    padding: 24px;
+    background-color:#007042;
+    color:white;
+    font-size: medium;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.q6:hover{
+    background-color: white;
+    color: #007042;
+    /* border: 3px solid black; */
+}
+.f1{
+    position: relative;
+    /* display: flex; */
+    width: 100%;
+    
+    
+}
+.f2{
+    height:150vh;
+    width: 100vw;
+    /* background-image: url(./img/abstract-luxury-light-cream-beige-brown-like-cotton-silk-texture-pattern-background.jpg); */
+    background-size: cover;
+    position: absolute;
+}
+#d5{
+    margin-top: 715px;
+    padding: 15px 0px;
+    align-items:center;
+    margin-left: 230px;
+    
+}
+hr{
+    border-top: 2px black solid;
+    margin-top: 30px;
+}
+.e1{
+    font-size: 69px;
+}
+.e3{
+    color: #C71E38;
+    font-size: 45px;
+}
+.e2{
+    font-size: 28px;
+}
+.y1{
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 90px;  
+}
+.p1{
+    height: 400px;
+    width: 750px;
+    /* border: 5px red solid; */
+    background-color:#007042;
+    margin-left: 600px;
+    margin-top: -323px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.p2{
+    color: white;
+    font-size: 42px;
+    padding: 50px;
+}
+.p3{
+    width: 20%;
+    height: 45px;
+    font-size: larger;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+
+}
+.p3:hover{
+    background-color: #C71E38;
+    color: white;
+}
+#p4{
+    width: 400px;
+    height: 40px;
+    margin-left: 90px;
+    border-radius: 15px;
+}
+.p6{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
